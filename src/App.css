@@ -47,3 +47,39 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.sticky-note {
+  width: 200px;
+  height: 200px;
+  background-color: #ffc0cb;
+  border: 1px solid #ccc;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.sticky-note .header {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.sticky-note .title {
+  font-weight: bold;
+  color: #000;
+}
+
+.sticky-note .close-btn {
+  color: #fff;
+  cursor: pointer;
+}
+
+.sticky-note .content {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
