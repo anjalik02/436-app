@@ -1,6 +1,7 @@
 body {
   margin: 0;
   overflow-y: hidden;
+  font-family: 'Oswald', sans-serif;
 }
 
 .App {
@@ -46,6 +47,15 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+.box {
+  background-color: #3500D3;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 50%;
 }
 
 .sticky-note {

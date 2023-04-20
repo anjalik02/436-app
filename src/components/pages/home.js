@@ -1,13 +1,15 @@
 import React from "react";
-  
+
 const Home = () => {
   return (
     <div className="App">
-      <h1 style={{ color: '#3500D3', fontSize: '4em' }}>
-        Welcome to KAHA Music, User
-      </h1>
+      <div className="box">
+        <h1 style={{ color: 'white', fontSize: '4em' }}>
+          Welcome to KAHA Music, User
+        </h1>
+      </div>
     </div>
   );
 };
-  
+
 export default Home;
