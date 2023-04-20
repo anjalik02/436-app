@@ -2,8 +2,10 @@ import React from 'react';
   
 const Brainstorm = () => {
   return (
-    <div>
-      <h1>Mail us on feedback@geeksforgeeks.org</h1>
+    <div className='App'>
+      <h1 style={{ color: '#3500D3', fontSize: '4em' }}>
+        Sticky Notes
+      </h1>
     </div>
   );
 };
