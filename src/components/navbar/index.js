@@ -7,23 +7,23 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
-          <NavLink to="/home" activeStyle>
+          {/* <NavLink to="/home" activeStyle>
             Home
+          </NavLink> */}
+          <NavLink to="/intro" activeStyle>
+            Intro
           </NavLink>
-          <NavLink to="/brainstorm" activeStyle>
-            Brainstorm
+          <NavLink to="/promo" activeStyle>
+            Promo
           </NavLink>
-          <NavLink to="/generate" activeStyle>
-            Generate
+          <NavLink to="/slides" activeStyle>
+            Slides
           </NavLink>
-          <NavLink to="/notate" activeStyle>
-            Notate
+          <NavLink to="/insights" activeStyle>
+            Insights
           </NavLink>
-          <NavLink to="/check" activeStyle>
-            Check
-          </NavLink>
-          <NavLink to="/share" activeStyle>
-            Share
+          <NavLink to="/conclusions" activeStyle>
+            Conclusions
           </NavLink>
         </NavMenu>
       </Nav>

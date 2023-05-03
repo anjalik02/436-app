@@ -11,7 +11,7 @@ body {
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .App-logo {
@@ -48,14 +48,18 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
 .box {
   background-color: #3500D3;
   padding: 20px;
-  display: flex;
+  /* display: flex; */
+  margin: 3%;
   justify-content: center;
-  align-items: center;
-  height: 30%;
-  width: 50%;
+  /* align-items: center; */
+  /* padding-left: 20px; */
+  height: 80%;
+  width: 85%;
 }
 
 .sticky-note {
